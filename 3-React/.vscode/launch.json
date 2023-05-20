@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://validateUserLoginForm",
+            "request": "launch",
+            "url": "http://validateUserLoginForm"
+        }
+    ]
+}
