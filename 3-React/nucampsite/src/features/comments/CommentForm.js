@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { addComment } from './commentsSlice';
+import { postComment } from './commentsSlice';
 import { useState } from "react";
 import { Button, Modal, ModalHeader, ModalBody, FormGroup, Label } from "reactstrap";
 import { Formik, Field, Form, ErrorMessage } from "formik";
@@ -19,7 +19,7 @@ import { validateCommentForm } from "../../utils/validateCommentForm";
         };
         console.log(comment);
         setModalOpen(false);
-        dispatch(addComment(comment));
+        dispatch(postComment(comment));
     };
 
     return (

@@ -1,5 +1,4 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
+/*import { useSelector } from 'react-redux';
 import { Container, Row } from 'reactstrap';
 import { useParams } from 'react-router-dom';
 import { selectCampsiteById } from '../features/campsites/campsitesSlice';
@@ -39,4 +38,4 @@ const CampsiteDetailPage = () => {
     );
 };
 
-export default CampsiteDetailPage;
+export default CampsiteDetailPage;*/
